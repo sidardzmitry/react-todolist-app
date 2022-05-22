@@ -1,0 +1,54 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border: 1px solid #fcd7b6;
+  border-radius: 4px;
+  padding: 10px 0 5px 0;
+  background-color: #243f4d;
+}
+.todo-item-title {
+  margin-left: 5px;
+  color: #eaebed;
+  word-break: break-all;
+  overflow: hidden;
+  width: 65%;
+  text-align: start;
+  font-weight: 500;
+}
+.todo-item-title:hover {
+  cursor: pointer;
+}
+.item-btn {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #fcd7b6;
+  color: #fcd7b6;
+  outline: none;
+}
+.item-btn:hover {
+  background-color: #fcd7b6;
+  color: #243f4d;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through #fcd7b6;
+}
+.important {
+  color: #f2a969;
+  font-weight: bold;
+}
+.active {
+  background-color: #f2a969;
+  color: #243f4d;
+}
+
+@media (max-width: 795px) {
+  .item-btn {
+    padding: 2px 5px;
+  }
+}

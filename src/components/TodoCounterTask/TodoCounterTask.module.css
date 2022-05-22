@@ -1,0 +1,20 @@
+.counter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+.counter-title {
+  color: #fcd7b6;
+  margin: 0;
+  font-weight: 500;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .counter {
+    justify-content: center;
+  }
+  .counter-title {
+    font-size: 15px;
+  }
+}

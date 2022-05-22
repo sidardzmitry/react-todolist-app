@@ -1,0 +1,26 @@
+.filter-buttons {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+.btn {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #fcd7b6;
+  color: #fcd7b6;
+  outline: none;
+}
+.btn:hover {
+  background-color: #fcd7b6;
+  color: #243f4d;
+  cursor: pointer;
+}
+.btn-all {
+  margin-right: 5px;
+}
+.btn-active {
+  margin-right: 5px;
+}

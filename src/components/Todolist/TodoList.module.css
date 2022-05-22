@@ -1,0 +1,41 @@
+.todo-list-group {
+  width: 95%;
+}
+.todo-edit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 0;
+}
+.todo-edit-input {
+  width: 80%;
+  padding: 10px 5px 10px 5px;
+  outline: none;
+  border: none;
+  background: transparent;
+  background-color: #a3bbc8;
+  border-radius: 4px;
+  color: #243f4d;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+  outline: none;
+}
+.todo-edit-button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #fcd7b6;
+  color: #fcd7b6;
+}
+.todo-edit-button:hover {
+  background-color: #fcd7b6;
+  color: #243f4d;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .todo-edit-input {
+    width: 75%;
+  }
+}

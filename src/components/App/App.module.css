@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "JetBrains Mono", monospace;
+  justify-content: flex-start;
+  width: 50%;
+  min-height: 230px;
+  background: #436372;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding-bottom: 32px;
+}
+.text-alternative {
+  color: #fcd7b6;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
